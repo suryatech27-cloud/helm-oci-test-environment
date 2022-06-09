@@ -138,7 +138,7 @@ need to change the ssl port 8443 to 443.
 
   server {
     listen 443 ssl;
-#    server_name harbordomain.com;
+    #server_name harbordomain.com;
     server_tokens off;
     # SSL
     ssl_certificate /etc/cert/server.crt;
