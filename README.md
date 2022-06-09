@@ -136,7 +136,7 @@ check the nginx configuration inside common/config/nginx directory , it should b
 
 need to change the ssl port 8443 to 443.
 
-  server {
+  server  {
     listen 443 ssl;
     #server_name harbordomain.com;
     server_tokens off;
@@ -157,6 +157,7 @@ need to change the ssl port 8443 to 443.
     chunked_transfer_encoding on;
 .......
 }
+
 
 After doing that check the docker-compose.yml file , there you need to change expose port 80:8080 and 443:443
 
