@@ -1,10 +1,15 @@
 # helm-oci-test-environment
 Project for installing the environment for helm oci pull testing:-
 Prerequisites : 
+
 Self Signed Certificates
+
 Docker and Docker-compose
+
 Local harbor setup 
+
 Nginx server -> Install and enabled two-way authentication 
+
 -----------------------------------------------------------------------------------------------------------------------------
  Create Self signed certificates
       Step-1 : Generate a Certificate Authority Certificate (Generate a CA certificate private key).
