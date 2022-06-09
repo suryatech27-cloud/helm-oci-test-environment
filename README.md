@@ -134,8 +134,7 @@ After installation completed run the prepare (./prepare) for preparing installat
 next time if you want to restart harbor , you can use docker compose to do so.
 check the nginx configuration inside common/config/nginx directory , it should be like below .
 
-need to change the ssl port 8443 to 443.
-
+#  need to change the ssl port 8443 to 443.
   server  {
     listen 443 ssl;
     #server_name harbordomain.com;
